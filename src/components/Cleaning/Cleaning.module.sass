@@ -1,0 +1,169 @@
+@import '../../variables/variables'
+
+.cleaning
+    display: flex
+    width: 100%
+    height: 100%
+
+    background-color: $cleaningColor
+    padding-bottom: 30px
+    transition: 1s ease-in
+
+.infoText
+    display: flex
+    padding-top: 126px
+    flex-direction: column
+    align-items: flex-start
+    transition: 1s ease-in
+.infoImage
+    display: flex
+    width: 100%
+    height: 100%
+    flex-direction: column
+    align-items: center
+    transition: 1s ease-out
+
+.list
+    display: flex
+    flex-direction: column
+    width: 100%
+    margin: 0
+    padding: 0
+    line-height: 32px
+    list-style-type: none
+    font-family: 'Montserrat-Regular', sans-serif
+
+.listItem
+    display: flex
+    padding-top: 30px
+
+.listImage
+    display: flex
+    background: url('/assets/images/star.svg') no-repeat
+    width: 21px
+    height: 21px
+    margin-right: 23px
+    margin-top: 10px
+
+.listText
+    line-height: 32px
+    font-size: 20px
+    width: 100%
+
+.circle
+    display: flex
+    width: 410px
+    height: 410px
+    position: relative
+    top: 140px
+    right: -20px
+    z-index: -1
+    background-color: #fff
+    border-radius: 50%
+    justify-content: flex-start
+    flex-direction: column
+    align-items: center
+
+.circleText
+    display: flex
+    font-family: 'Roboto-Bold', sans-serif
+    width: 289px
+    font-size: 28px
+    line-height: 39px
+    text-align: center
+
+.circleImage
+    display: flex
+    padding: 70px 0 30px
+
+.image
+    display: flex
+    align-self: flex-end
+
+@media screen and ( max-width: 375px )
+    .listText
+        width: 100%
+    .cleaning
+        display: flex
+        width: 100%
+        justify-content: center
+        padding-bottom: 0px
+    .circle
+        display: flex
+        width: 300px
+        height: 300px
+    .imageWrapper
+        display: flex
+        position: relative
+        top: -70px
+        width: 100%
+        margin: 0
+    .infoText
+        display: flex
+        width: 100%
+        justify-content: flex-start
+        align-self: flex-start
+        padding-top: 66px
+
+    .infoImage
+        display: flex
+        max-width: 295px
+        width: 100%
+        align-items: center
+        height: 100%
+    .circleText
+        font-size: 22px
+        line-height: 30px
+    .image
+        width: 100%
+        height: 100%
+
+@media screen and ( max-width: 480px )
+    .cleaning
+        display: flex
+        width: 100%
+        justify-content: center
+        padding-bottom: 0px
+    .list
+        display: flex
+        align-items: center
+        padding-bottom: 45px
+    .listText
+        width: 100%
+    .listItem
+        display: flex
+        justify-content: flex-start
+        width: 100%
+        max-width: 300px
+    .infoText
+        padding-bottom: 0
+        padding-top: 66px
+    .infoImage
+        display: flex
+        align-items: center
+    .imageWrapper
+        display: flex
+        justify-content: center
+        width: 100%
+        position: relative
+        top: -70px
+        margin: 0
+    .circle
+        display: flex
+        align-self: center
+        width: 300px
+        height: 300px
+        top: 20px
+        right: 0
+    .circleText
+        font-size: 22px
+        line-height: 30px
+    .circleImage
+        width: 20px
+        height: 18px
+    .image
+        display: flex
+        align-self: center
+        width: 300px
+        height: 300px
+

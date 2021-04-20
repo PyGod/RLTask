@@ -1,0 +1,122 @@
+@import '../../variables/variables'
+
+.header
+
+    margin-bottom: 15px
+    padding-bottom: 124px
+    background-color: $headerColor
+    transition: 1s ease-in
+
+.headerTop
+    height: 32px
+    display: flex
+    top: 0
+    width: 100%
+    align-items: center
+    z-index: 1000
+    padding: 30px 40px 0px
+
+.logo
+    display: flex
+    font-size: 30px
+    font-weight: 700
+    font-family: Puritan-Regular, sans-serif
+    line-height: 33px
+    a
+        text-decoration: none
+        color: black
+
+.tabpanel
+    display: flex
+    justify-content: center
+    font-family: Montserrat-Regular, sans-serif
+    font-weight: 500
+
+.number
+    display: flex
+    justify-content: flex-end
+
+.contentInfo
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding-top: 164px
+    transition: 1s ease-in
+
+.title
+    display: flex
+    padding-bottom: 20px
+
+.paragraph
+    display: flex
+    
+.imageWrapper
+    display: flex
+    justify-content: center
+
+.image
+    height: auto
+    padding-top: 75px
+    transition: 1s ease-in
+
+.button
+    display: flex
+    margin: 35px 0 0
+
+.burger
+    display: none
+
+@media screen and ( max-width: 375px )
+
+    .tabpanel
+        display: none
+    .number
+        display: none
+    .contentInfo
+        display: flex
+        padding-top: 0
+    .title
+        font-size: 40px
+    .header
+        padding-bottom: 35px
+    .headerTop
+        justify-content: space-between
+        padding: 19px 20px 59px 25px
+    .button
+        justify-content: center
+        margin: 35px 0
+    .imageWrapper
+        display: flex
+        justify-content: center
+    .image
+
+        padding-top: 30px
+        height: auto
+    .burger
+        display: flex
+
+@media screen and ( max-width: 480px )
+
+    .tabpanel
+        display: none
+    .number
+        display: none
+    .contentInfo
+        display: flex
+        width: 100%
+
+        align-items: center
+        padding-top: 0
+    .headerTop
+        padding: 19px 25px 59px 25px
+        justify-content: space-between
+    .header
+        padding-bottom: 35px
+    .button
+        margin: 35px 0
+    .image
+        padding-top: 30px
+        width: 300px
+        height: auto
+    .burger
+        display: flex
