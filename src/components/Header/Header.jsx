@@ -59,7 +59,7 @@ const Header = () => {
   })(Typography);
 
   return (
-    <header className={`${classes.header} ${global.block}`}>
+    <header  className={`${classes.header} ${global.block} cd-section visible`}>
       <Grid container>
         <Box className={classes.headerTop}>
           <Grid item sm={1} lg={3} className={classes.logo}>
@@ -87,14 +87,43 @@ const Header = () => {
         </Box>
         <Box className={global.content}>
           <Grid item xs={12} lg={5}>
-            <Box data-aos="fade-up" className={classes.contentInfo}>
-              <MyH2 component="h2" variant="h2" className={classes.title}>
-                Твій сервіс <br /> з прибирання
+            <Box className={classes.contentInfo}>
+              <MyH2 component="h2" variant="h2" className={`${classes.title} `}>
+                <div className={`${classes.divWrapper} `}>
+                  <div
+                    className={`${classes.divPadding} ${classes.one} ${classes.fadeInUp} ${classes.animate}`}
+                  >
+                    Твій
+                  </div>
+                  <div
+                    className={`${classes.divPadding} ${classes.two} ${classes.fadeInUp} ${classes.animate}`}
+                  >
+                    сервіс
+                  </div>
+                </div>
+                <div className={classes.divWrapper}>
+                  {' '}
+                  <div
+                    className={`${classes.divPadding} ${classes.three} ${classes.fadeInUp} ${classes.animate}`}
+                  >
+                    з
+                  </div>
+                  <div
+                    className={` ${classes.divPadding} ${classes.four} ${classes.fadeInUp} ${classes.animate}`}
+                  >
+                    прибирання
+                  </div>
+                </div>
               </MyH2>
-              <MyP component="p" className={classes.paragraph}>
+              <MyP
+                component="p"
+                className={`${classes.paragraph} ${classes.fadeInUp} ${classes.animate} `}
+              >
                 Дім — для відпочинку, а прибирання вдома — для нас.
               </MyP>
-              <Box className={classes.button}>
+              <Box
+                className={`${classes.button} ${classes.fadeInUp} ${classes.animate} `}
+              >
                 <BookingButton text="Замовити прибирання" />
               </Box>
             </Box>

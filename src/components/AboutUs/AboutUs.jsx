@@ -38,7 +38,6 @@ const AboutUs = () => {
 
   const MyH2 = withStyles({
     root: {
-      
       fontFamily: 'Roboto-Bold, sans-serif',
       height: '100%',
       paddingBottom: '111px',
@@ -88,7 +87,7 @@ const AboutUs = () => {
   return (
     <section
       data-aos="fade-up"
-      className={`${classes.aboutUs} ${global.block}`}
+      className={`${classes.aboutUs} ${global.block} `}
     >
       <Grid container>
         <Box className={global.content}>
@@ -104,7 +103,11 @@ const AboutUs = () => {
             </Box>
           </Grid>
           <Grid item lg={6}>
-            <Box data-aos="fade-down" className={classes.contentRight}>
+            <Box
+              data-aos="fade-down"
+              data-aos-delay="150"
+              className={classes.contentRight}
+            >
               <Box className={classes.dialogWrapper}>
                 <MyTypography component="p" className={classes.dialog}>
                   Limpi – це великий досвід у клінінговому бізнесі та цифрова

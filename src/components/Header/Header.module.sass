@@ -1,7 +1,7 @@
 @import '../../variables/variables'
 
 .header
-
+    display: flex
     margin-bottom: 15px
     padding-bottom: 124px
     background-color: $headerColor
@@ -45,11 +45,18 @@
 
 .title
     display: flex
+    position: relative
+    width: 300px
+    // width: 100%
+    flex-direction: column
     padding-bottom: 20px
-
+    .divWrapper
+        display: flex
+    .divPadding
+        padding-right: 12px
 .paragraph
     display: flex
-    
+
 .imageWrapper
     display: flex
     justify-content: center
@@ -65,6 +72,39 @@
 
 .burger
     display: none
+
+.one
+    animation-delay: 0.3s
+
+.two
+    animation-delay: 0.4s
+
+.three
+    animation-delay: 0.5s
+
+.four
+    animation-delay: 0.6s
+
+@keyframes fadeInUp
+    0%
+        opacity: 0
+        transform: translate3d(0, 0, 0)
+    20%
+        transform: translate3d(0, -80%, 0)
+
+    80%
+        transform: translate3d(0, 0, 80%)
+
+    100%
+        opacity: 1
+        transform: translateY(-60%)
+
+.animate
+    animation-duration: 1.5s
+    animation-fill-mode: both
+
+.fadeInUp
+    animation-name: fadeInUp
 
 @media screen and ( max-width: 375px )
 

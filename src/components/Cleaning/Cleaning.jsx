@@ -59,7 +59,11 @@ const Cleaning = () => {
             </Box>
           </Grid>
           <Grid item xs={12} lg={6}>
-            <Box data-aos="fade-down" className={classes.infoImage}>
+            <Box
+              className={classes.infoImage}
+              data-aos="fade-down"
+              data-aos-delay="150"
+            >
               <Box className={classes.circle}>
                 <Box className={classes.circleImage}>
                   <img src={quotes} alt="" />
