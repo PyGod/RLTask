@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/RLTask/static/css/main.e6ee4da4.chunk.css",
+    "main.js": "/RLTask/static/js/main.efa13b16.chunk.js",
+    "main.js.map": "/RLTask/static/js/main.efa13b16.chunk.js.map",
+    "runtime-main.js": "/RLTask/static/js/runtime-main.1c9f74aa.js",
+    "runtime-main.js.map": "/RLTask/static/js/runtime-main.1c9f74aa.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/RLTask/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.c70981fc.chunk.js": "/RLTask/static/js/2.c70981fc.chunk.js",
+    "static/js/2.c70981fc.chunk.js.map": "/RLTask/static/js/2.c70981fc.chunk.js.map",
+    "static/js/3.f2578bdd.chunk.js": "/RLTask/static/js/3.f2578bdd.chunk.js",
+    "static/js/3.f2578bdd.chunk.js.map": "/RLTask/static/js/3.f2578bdd.chunk.js.map",
+    "index.html": "/RLTask/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/RLTask/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.e6ee4da4.chunk.css.map": "/RLTask/static/css/main.e6ee4da4.chunk.css.map",
+    "static/js/2.c70981fc.chunk.js.LICENSE.txt": "/RLTask/static/js/2.c70981fc.chunk.js.LICENSE.txt",
+    "static/media/AboutUs.5105ed1c.svg": "/RLTask/static/media/AboutUs.5105ed1c.svg",
+    "static/media/Cleaning.203a01df.svg": "/RLTask/static/media/Cleaning.203a01df.svg",
+    "static/media/Header.7f4bc50d.svg": "/RLTask/static/media/Header.7f4bc50d.svg",
+    "static/media/index.sass": "/RLTask/static/media/Roboto-Regular.a1690f8e.woff",
+    "static/media/Vector.ca5e839f.svg": "/RLTask/static/media/Vector.ca5e839f.svg",
+    "static/media/quotes.d64266ba.svg": "/RLTask/static/media/quotes.d64266ba.svg",
+    "static/media/Cleaning.module.sass": "/RLTask/static/media/star.98c6a3b7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c9f74aa.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.c70981fc.chunk.js",
+    "static/css/main.e6ee4da4.chunk.css",
+    "static/js/main.efa13b16.chunk.js"
+  ]
+}
